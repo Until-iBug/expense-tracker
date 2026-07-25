@@ -26,6 +26,17 @@ header p{
     padding:60px; 
     border-radius:5%;
 }
+.newTransaction p{
+   font-weight: 800;
+   font-size: 3rem;
+   padding:20px;
+}
+.newTransaction div{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
 .money{
     font-weight: bold;
     font-size: 3rem;
