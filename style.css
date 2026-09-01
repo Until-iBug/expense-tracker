@@ -26,6 +26,10 @@ header p{
     padding:60px; 
     border-radius:5%;
 }
+.money{
+    font-weight: bold;
+    font-size: 3rem;
+}
 .newTransaction p{
    font-weight: 800;
    font-size: 3rem;
@@ -35,9 +39,26 @@ header p{
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right:20px;
+    font-size: 2rem;
+    
+}
+.newTransaction button{
+    margin:20px;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+.title, .amt, .cat,.type {
+    display: flex;
+    
     font-size: 2rem;
 }
-.money{
-    font-weight: bold;
-    font-size: 3rem;
+.title div, .amt div, .cat div,.type div{
+    width:150px;
 }
+.rt{
+    font-size: 2rem;
+    padding-left:20px;
+}
+
