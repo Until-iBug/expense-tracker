@@ -11,7 +11,6 @@
         <h1>Dashboard</h1>
         <p>Welcome Back! Here's your financial overview.</p>
         </header>
-    <section>
     <div class="financeBoard">
         <div class="bal">
             <div>Total Balance</div>
@@ -23,30 +22,39 @@
         </div>
         <div class="exp">
             <div>Total Expenses</div>
-            <div  class="money">₹20,150</div>
+            <div class="money">₹20,150</div>
         </div>
         <div class="sav">
             <div>Total Saving</div>
             <div class="money">₹24,850</div>
         </div>
     </div>
-        <div class="newTransaction">
+    <div class="newTransaction">
         <p>Add New Transaction</p>
-        <div>Title:</div>
-        <div>Amount</div>
-        <div>Category</div>
-        <div>Type</div>
+        <div class="title">
+        <div>Title:</div><input type="text">
+        </div>
+        <div class="amt">
+        <div>Amount:</div>
+        <input type="text">
+        </div>
+        <div class="cat">
+        <div>Category:</div>
+        <input type="text">
+        </div>
+        <div class="type">
+        <div>Type:</div>
+        <input type="text">
+        </div>
         <button>Add Transaction</button>
     </div>
-        <div class="recentTransaction">
-        <div class=""> Burger king</div>    <div>-₹350 </div>
-        <div class="">Salary      <div>+₹25,000</div>
-        <div class="">Electricity    <div>-₹1200</div>
-        <div class="">Netflix      <div>-₹999</div>
+    <div class="recentTransaction">
+        <div class="rt"> Burger king    -₹350 </div>
+        <div class="rt">Salary      +₹25,000</div>
+        <div class="rt">Electricity    -₹1200</div>
+        <div class="rt">Netflix      -₹999</div>
         <button>Edit</button>
         <button>Delete</button>
     </div>
-    </section>
-    <script srs="script.js"></script>
 </body>
 </html>
